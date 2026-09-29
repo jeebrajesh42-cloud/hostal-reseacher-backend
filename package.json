@@ -1,0 +1,25 @@
+{
+  "name": "hostel-research-expense-tracker-workspace",
+  "version": "1.0.0",
+  "description": "Production-ready Web Application for Student Hostel Research & Expense Tracking",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "test:backend": "cd backend && npm test",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "hostel",
+    "expense-tracker",
+    "react",
+    "express",
+    "supabase",
+    "mvc",
+    "recharts",
+    "tailwind"
+  ],
+  "author": "Antigravity Senior Architect",
+  "license": "ISC"
+}
