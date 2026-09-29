@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Production-ready Web Application for Student Hostel Research & Expense Tracking",
   "private": true,
+  "main": "backend/src/server.js",
   "scripts": {
+    "start": "node backend/src/server.js",
+    "build": "cd backend && npm install",
+    "postinstall": "cd backend && npm install",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
